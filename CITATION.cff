@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "Persian ABSA with Fine-Tuned LLaMA3"
+type: software
+authors:
+  - family-names: Ranjbar
+    given-names: Niloofar
+    email: nranjbar@pgu.ac.ir
+  - family-names: Baghbani
+    given-names: Hamed
+    email: baghbani.hamed@gmail.com
+version: 1.0.0-rc1
+date-released: 2026-07-22
+repository-code: "https://github.com/USERNAME/persian-absa-llama3"
+license: MIT
+keywords:
+  - Persian NLP
+  - aspect-based sentiment analysis
+  - LLaMA3
+  - QLoRA
+  - structured generation

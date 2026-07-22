@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+*.log
+*.tmp
+outputs/
+checkpoints/
+lora_adapter/
+predictions_*.csv
+errors_*.csv
+/kaggle/working/
+# Never commit credentials
+*token*
+*secret*
+# External or non-cleared datasets
+/data/raw/
+/data/private/

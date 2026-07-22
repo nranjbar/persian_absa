@@ -1,0 +1,21 @@
+name: persian-absa-llama3
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip:
+      - rapidfuzz>=3.6
+      - torch>=2.1
+      - transformers>=4.42
+      - datasets>=2.18
+      - accelerate>=0.29
+      - peft>=0.11
+      - trl>=0.8
+      - bitsandbytes>=0.43
+      - sentencepiece>=0.2
+      - unsloth
